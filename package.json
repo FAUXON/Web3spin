@@ -1,5 +1,6 @@
 {
   "name": "spintoearn",
+  "homepage": "https://fauxon.github.io/Web3spin",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -7,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@solana/web3.js": "^1.87.6",
