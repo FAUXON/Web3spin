@@ -1,6 +1,6 @@
 {
   "name": "spintoearn",
-  "homepage": ".",
+  "homepage": "https://fauxon.github.io/Web3spin",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,12 @@
     "preview": "vite preview",
     "CI": "npm run build",
     "predeploy": "npm run build",
-    "postbuild": "cp -r dist netlify-dist"
+    "deploy": "gh-pages -d dist",
+    "postbuild": "cp -r dist netlify-dist",
+    "command": "npm run build",
+    "commandOrigin": "ui",
+    "publish": "/opt/build/repo/dist",
+    "publishOrigin": "ui"
   },
   "dependencies": {
     "@solana/web3.js": "^1.87.6",
